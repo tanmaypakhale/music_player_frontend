@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px 0 5px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px 0 0;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 0 8px 0 0;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    width: 60%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 24px;
+    background-image: url('mr.music bg.jpg');
+    background-size: 100% 100%;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    padding: 0 10px;
+}
+#myProgressBar{
+    width: 80vw;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 50%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    padding: 0 10px 0 0;
+}
+.songItem img{
+    height: 45px;
+    width: 45px;
+    padding: 3px 12px;
+    border-radius: 50%;
+}
+
+.songplaylist{
+    padding: 0 5px;
+}
+
+span{
+    padding-right: 5px;
+}
+
+.songitemcontainer{
+    margin-top: 60px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 7.5vw;
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+}
+
+.songInfo img{
+    width: 100px;
+    height: 70px;
+    margin-top: 30px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fa-regular{
+    cursor: pointer;
+}
